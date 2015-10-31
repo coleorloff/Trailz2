@@ -59,6 +59,10 @@ strong {
 dfn {
   font-style: italic;
 }
+#footer{
+  position: absolute;
+  z-index: 
+}
 h1 {
   margin: .67em 0;
   font-size: 2em;

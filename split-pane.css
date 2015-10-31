@@ -8,6 +8,32 @@ Released under the MIT license
 https://raw.github.com/shagstrom/split-pane/master/LICENSE
 
 */
+
+/* is styling the html & body a good idea? could this potentially interfere with bootstrap? */
+
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .split-pane-divider {
+    background: #9AFF92;
+    z-index: 1;
+  }
+  #left-component {
+    width: 30%;
+  }
+  #divider {
+    left: 70%; /* same as left component width */
+    width: 5px;
+    z-index: 1;
+  }
+  #right-component {
+    left: 70%;
+    margin-left: 5px; /* same as divider width */
+  }
 .split-pane {
 	position: relative;
 	height: 100%;
@@ -105,7 +131,7 @@ https://raw.github.com/shagstrom/split-pane/master/LICENSE
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 10000;
+	z-index: 3;
 	display: none;
 }
 
