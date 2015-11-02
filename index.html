@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Sticky Footer Template for Bootstrap</title>
+    <title>Tracr</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,6 +25,7 @@
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/split-pane.js"></script>
+    <script src="js/button.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -44,11 +45,19 @@
     <!-- Begin page content -->
   <div id="split-pane-1" class="split-pane fixed-left">
       <div class="split-pane-component" id="left-component">
-        This is the left component
+        <form autocomplete="false" onsubmit="return false">
+          <input type="text" name="url" value="coleorloff.com" size="50%"></input>
+          <button type="button" onsubmit="return true">Log</button>
+         </form>
       </div>
+
       <div class="split-pane-divider" id="divider"></div>
+
       <div class="split-pane-component" id="right-component">
+        <div class="keybucket" style="background-color:#11ffc9">
         <div class="container">
+          
+
           <br>
 
           <div class="panel panel-default">
@@ -62,6 +71,18 @@
             </div>
           </div>
 
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                Right side title
+                </h3>
+              </div>
+            <div class="panel-body">
+              This is the right component
+            </div>
+          </div>
+
+          </div>
         </div>
       </div>
     </div>

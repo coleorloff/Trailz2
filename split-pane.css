@@ -23,7 +23,7 @@ html, body {
     z-index: 1;
   }
   #left-component {
-    width: 30%;
+    width: 70%;
   }
   #divider {
     left: 70%; /* same as left component width */

@@ -1586,12 +1586,16 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
+.container{
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
+.keybucket{
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -5498,7 +5502,7 @@ button.list-group-item-danger.active:focus {
   line-height: 1.3;
 }
 .panel {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
