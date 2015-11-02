@@ -13,8 +13,8 @@ $(document).ready(function() {
 			for(var i = 0; i < data.keywords.length; i++){
 				keywordlist.push(data.keywords[i].text);
 			}
-			$('.container').append("<div class='panel panel-default'>" + "<div class='panel-heading'>" + "<h3 class='panel-title'>" + newURL + "</h3>" + "</div>" + "<div class='label label-info'>" + time + "</div>" + "<div class='panel-body'>" + keywordlist + "</div>" + "</div>" + "</div>");
-			//$('.card').draggable();
+			$('.keybucket').append("<div class='panel panel-default'>" + "<div class='panel-heading'>" + "<h3 class='panel-title'>" + newURL + "</h3>" + "</div>" + "<div class='label label-info'>" + time + "</div>" + "<div class='panel-body'>" + keywordlist + "</div>" + "</div>" + "</div>");
+			//$('.keybucket').sortable();
 		});
 	});
 });
