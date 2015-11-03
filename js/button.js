@@ -14,7 +14,6 @@ $(document).ready(function() {
 				keywordlist.push(data.keywords[i].text);
 			}
 			$('.keybucket').append("<div class='panel panel-default'>" + "<div class='panel-heading'>" + "<h3 class='panel-title'>" + newURL + "</h3>" + "</div>" + "<div class='label label-info'>" + time + "</div>" + "<div class='panel-body'>" + keywordlist + "</div>" + "</div>" + "</div>");
-			//$('.keybucket').sortable();
 		});
 	});
 });
