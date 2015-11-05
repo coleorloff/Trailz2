@@ -1,4 +1,9 @@
+
 .keybucket{
-  overflow: visible;
-  background-color: #9AFF92;
+	margin-top: 20%;
+	overflow: visible;
+	background-color: #9AFF92;
+}
+.btn{
+	width: 100%;
 }
